@@ -1,0 +1,11 @@
+.tabs__item {
+    display: none;
+}
+.tabs__item.--open {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column-reverse;
+}
